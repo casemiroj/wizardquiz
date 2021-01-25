@@ -4,6 +4,8 @@ import Widget from '../src/components/Widget'
 import QuizBackground from '../src/components/QuizBackground'
 import Footer from '../src/components/Footer'
 import GitHubCorner from '../src/components/GitHubCorner'
+import Head from "next/head";
+
 
 export const QuizContainer = styled.div`
   width: 100%;
@@ -18,6 +20,22 @@ export const QuizContainer = styled.div`
 
 export default function Home() {
   return (
+  <>
+    <Head>
+      <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      <meta charSet="UTF-8" />
+      <title>{db.title}</title>
+      <meta property="og:description" content="WizardQuiz | Imersão React + Next Js"/>
+      <meta property="og:url" content="https://wizardquiz.vercel.app/" />
+      <meta property="og:type" content="website" />
+      <meta property="og:title" content={db.title} />
+      <meta property="og:image" content={db.bg} />
+            
+      <meta name="keywords" content="HTML, CSS, JavaScript" />
+      <meta property="article:author" content={db.author} />
+      <link rel="icon" type="image/png" href={db.icon} />
+    </Head>
+
     <QuizBackground backgroundImage={db.bg}>
       <QuizContainer>
         <Widget>
@@ -40,5 +58,6 @@ export default function Home() {
       </QuizContainer>
       <GitHubCorner projectUrl="https://github.com/casemiroj/wizardquiz" />
     </QuizBackground>
+  </>
   )
 }

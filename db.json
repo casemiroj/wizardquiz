@@ -1,7 +1,9 @@
 {
     "bg": "https://wallpapercave.com/wp/wp2638543.jpg",
     "title": "WizardQuiz",
-    "description": "Teste seus conhecimentos sobre a saga Harry Potter",
+    "icon": "https://static.thenounproject.com/png/7729-200.png",
+    "description": "Teste seus conhecimentos sobre a saga do bruxo mais famoso do mundo",
+    "author" : "João Casemiro",
     "questions": [
       {
         "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
