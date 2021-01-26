@@ -4,7 +4,6 @@ import Widget from '../src/components/Widget'
 import QuizBackground from '../src/components/QuizBackground'
 import Footer from '../src/components/Footer'
 import GitHubCorner from '../src/components/GitHubCorner'
-import QuizHead from '../src/components/QuizHead'
 import QuizLogo from '../src/components/QuizLogo'
 
 
@@ -21,9 +20,6 @@ export const QuizContainer = styled.div`
 
 export default function Home() {
   return (
-  <>
-    <QuizHead props={db}></QuizHead>
-
     <QuizBackground backgroundImage={db.bg}>
       <QuizContainer>
         <QuizLogo></QuizLogo>
@@ -47,6 +43,5 @@ export default function Home() {
       </QuizContainer>
       <GitHubCorner projectUrl="https://github.com/casemiroj/wizardquiz" />
     </QuizBackground>
-  </>
   )
 }
