@@ -1,4 +1,7 @@
 import styled from 'styled-components'
+import { useRouter } from 'next/router'
+import { useState } from 'react'
+
 import db from '../db.json'
 import Widget from '../src/components/Widget'
 import QuizBackground from '../src/components/QuizBackground'
@@ -19,6 +22,9 @@ export const QuizContainer = styled.div`
 `;
 
 export default function Home() {
+  const router = useRouter()
+  const [name, setName] = useState('')
+
   return (
     <QuizBackground backgroundImage={db.bg}>
       <QuizContainer>
@@ -30,6 +36,19 @@ export default function Home() {
 
           <Widget.Content>
             <p>{ db.description }</p>
+            <form onSubmit = { event => {
+
+              event.preventDefault()
+              router.push(`/quiz?name=${name}`)
+              console.log('Fazendo submissão')
+            
+            }}>
+              <input onChange = { infosDoEvento => {
+                setName(infosDoEvento.target.value)
+              }} 
+              placeholder="Diga seu nome de bruxo" />
+              <button type="submit" disabled={name.length === 0}>Accio Quiz!</button>
+            </form>
           </Widget.Content>
         </Widget>
         
