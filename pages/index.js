@@ -29,7 +29,7 @@ export default function Home() {
   return (
     <QuizBackground backgroundImage={db.bg}>
       <QuizContainer>
-        <Logo src="../src/assets/logo.gif" />
+        <QuizLogo/>
         <Widget>
           <Widget.Header>
         	<h1>{ db.title }</h1>
