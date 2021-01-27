@@ -6,27 +6,124 @@
     "author" : "João Casemiro",
     "questions": [
       {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-        "title": "Como fazer um seletor por id via CSS?",
-        "description": "Essa é pra aquecer",
+        "image": "https://media.giphy.com/media/YSs8N4iWa5Jzq/giphy.gif",
+        "title": "Quais são as maldições 3 imperdoaveis",
+        "description": "😨😨😨😨",
         "answer": 2,
         "alternatives": [
-          ".elemento",
-          "*elemento",
-          "#elemento",
-          "%elemento"
+          "Imperio, Crucio e Obliviate",
+          "Alohomora, Crucio e Avada Kedavra",
+          "Imperio, Crucio e Avada Kedavra",
+          "Alohomoha, Estupefaça e Avada Kedavra"
         ]
       },
       {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "Como fazer um background gradiente com css?",
-        "description": "Faz tempo em haha",
+        "image": "https://media.giphy.com/media/oGD3yIWPUdbri/giphy.gif",
+        "title": "Qual o nome completo de Dumbledore",
+        "description": "Essa eu quero ver",
+        "answer": 1,
+        "alternatives": [
+           "Alvo Percival Dumbledore",
+           "Alvo Percival Wulfric Brian Dumbledore",
+           "Alvo Percival Wulfric Dumbledore",
+           "Alvo Wulfric Dumbledore"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/7rSqa74vJW0Te/giphy.gif",
+        "title": "O que dizia a profecia?",
+        "description": "🔮🔮🔮🔮",
         "answer": 0,
         "alternatives": [
-           "background: linear-gradient(#e66465, #9198e5);",
-           "background: gradient(#e66465, #9198e5);"
+           "Um não poderá viver enquanto o outro estiver vivo ",
+           "Dumbledore é o unico que tem o poder para derrotar o Lorde das Trevas",
+           "Todos os esforços para deter o Lorde das Trevas será em vão",
+           "Harry Potter morrerá se tentar derrotar o Lorde das Trevas"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/mz1kJeDVueKC4/giphy.gif",
+        "title": "Qual era o nome do grupo de estudos de Defesa Contra as Artes das Trevas?",
+        "description": "Essa é facil hein",
+        "answer": 3,
+        "alternatives": [
+           "GD - Grupo de Dumbledore",
+           "AD - Alvo Dumbledore",
+           "AH - Armada de Harry",
+           "AD - Armada de Dumbledore"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/4M9tEFYnHWAsE/giphy.gif",
+        "title": "Quem Tom Riddle usou para abrir a camara secreta?",
+        "description": "Cuidado com o basilisco",
+        "answer": 3,
+        "alternatives": [
+           "Rony",
+           "Draco",
+           "Crebbe",
+           "Gina"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/fWLffIpICkzAY/giphy.gif",
+        "title": "Qual a posição de Harry no quadribol?",
+        "description": "O esporte mais jogado no mundo bruxo",
+        "answer": 1,
+        "alternatives": [
+           "Goleiro",
+           "Apanhador",
+           "Artilheiro",
+           "Batedor"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/X1LTQuH3i8fza/giphy.gif",
+        "title": "Quem criou o Mapa do Maroto",
+        "description": "Eu juro solenimente não fazer nada de bom",
+        "answer": 3,
+        "alternatives": [
+           "Os criadores de Hogwarts",
+           "Os Començais da Morte",
+           "Sirius, Tiago, Lupin e Lilian",
+           "Sirius, Tiago, Lupin e Pettigrew"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/UQ84N6dIWObZWILqsE/giphy.gif",
+        "title": "Quantos livros tem a saga?",
+        "description": "Alguns hein",
+        "answer": 1,
+        "alternatives": [
+           "8",
+           "7",
+           "6",
+           "5"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/IWfm4Mcfjw4Yo/giphy.gif",
+        "title": "Qual foi a primeira Horcrux a ser destruida?",
+        "description": "Adeus Voldem...Aquele-que-não-deve-ser-nomeado",
+        "answer": 0,
+        "alternatives": [
+           "O diario de Tom Riddle",
+           "A pedra filosofal",
+           "Nagini",
+           "Medalhão da Sonserina"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/kCoiC3iT2mOnm/giphy.gif",
+        "title": "Voldemort era sangue-puro?",
+        "description": "A ultima, prometo",
+        "answer": 1,
+        "alternatives": [
+           "Verdadeiro",
+           "Falso"
         ]
       }
+
     ],
     "external": [
       ""

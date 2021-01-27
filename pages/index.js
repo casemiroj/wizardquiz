@@ -8,6 +8,7 @@ import QuizBackground from '../src/components/QuizBackground'
 import Footer from '../src/components/Footer'
 import GitHubCorner from '../src/components/GitHubCorner'
 import QuizLogo from '../src/components/QuizLogo'
+import Logo from '../src/components/Logo'
 
 
 export const QuizContainer = styled.div`
@@ -28,7 +29,7 @@ export default function Home() {
   return (
     <QuizBackground backgroundImage={db.bg}>
       <QuizContainer>
-        <QuizLogo></QuizLogo>
+        <Logo src="../src/assets/logo.gif" />
         <Widget>
           <Widget.Header>
         	<h1>{ db.title }</h1>
