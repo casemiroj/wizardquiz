@@ -51,7 +51,7 @@ Widget.Topic = styled.a`
   outline: 0;
   text-decoration: none;
   color: ${({ theme }) => theme.colors.contrastText};
-  background-color: #1c73ff40;
+  background-color: #6b63ff;
   padding: 10px 15px;
   margin-bottom: 8px;
   cursor: pointer;
