@@ -41,11 +41,9 @@ function ResultWidget({ results }) {
                 {' '}
                 pergunta(s)
             </p>
-          <ul>
-              {results.map((result, index) => (
-                <li key={`result__${result}`}>Pergunta #{index + 1}: {result === true ? 'Acertou' : 'Errou'}</li>
-              ))}  
-          </ul>
+          <img
+            style={{width: '100%'}}
+            src="https://media.giphy.com/media/PXvCWUnmqVdks/giphy.gif"/>
         </Widget.Content>
         </Widget>
     );
